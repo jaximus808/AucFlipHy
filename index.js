@@ -50,6 +50,10 @@ client.on('guildMemberUpdate', (oldMember, newMember) => {
     //         newMember.setNickname('NickName')
     //     }
     // }
+    if(newMember.user.id == 413398657791164416)
+    {
+        newMember.setNickname("Protagonist");
+    }
     if(newMember.user.id != 279828346240630786) return; 
     newMember.setNickname("NegativeTalent");
  });

@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-
+console.log(process.env.DISCORD_API);
 client.once('ready', () =>{
     console.log('Start af');
     
